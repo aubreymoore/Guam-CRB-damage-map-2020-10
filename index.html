@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
-.abstractUncollapsed {max-width: 100%;}
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -81,8 +80,7 @@
                         <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">mean_damage_index</th>\
-                        <td>' + (feature.properties['mean_damage_index'] !== null ? autolinker.link(feature.properties['mean_damage_index'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['mean_damage_index'] !== null ? autolinker.link(feature.properties['mean_damage_index'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -99,7 +97,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(0,128,0,1.0)',
                 interactive: true,
             }
@@ -114,7 +112,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(0,255,0,1.0)',
                 interactive: true,
             }
@@ -129,7 +127,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(255,255,0,1.0)',
                 interactive: true,
             }
@@ -144,7 +142,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(255,165,0,1.0)',
                 interactive: true,
             }
@@ -159,7 +157,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(255,100,0,1.0)',
                 interactive: true,
             }
@@ -174,7 +172,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 fillColor: 'rgba(255,0,0,1.0)',
                 interactive: true,
             }
@@ -278,7 +276,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,0,255,1.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_vcuts_view_3');
@@ -286,7 +284,7 @@
         map.getPane('pane_vcuts_view_3').style['mix-blend-mode'] = 'normal';
         var layer_vcuts_view_3 = new L.geoJson(json_vcuts_view_3, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_vcuts_view_3',
             layerName: 'layer_vcuts_view_3',
             pane: 'pane_vcuts_view_3',
@@ -312,7 +310,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = '<b>Coconut Rhinoceros Beetle Damage</b><br><b>Guam Roadside Video Survey 1</b><br><br><table><tr><td>Start date:</td><td  style="text-align:right">2020-10-01</td></tr><tr><td>End date:</td><td  style="text-align:right">2020-10-22</td></tr><tr><td>Video frames examined:</td><td style="text-align:right">174,944</td></tr><tr></tr><tr><td><b>V-cuts detected:</b></td><td style="text-align:right"><b>12,089</b></td></tr><tr></tr><tr><td>Coconut palm images:</td><td style="text-align:right">57,666</td></tr><tr><td>0 No damage:</td><td style="text-align:right">9,282</td></tr><tr><td>1 Light damage:</td><td style="text-align:right">38,944</td></tr><tr><td>2 Medium damage:</td><td style="text-align:right">7,458</td></tr><tr><td>3 High damage:</td><td style="text-align:right">1,063</td></tr><tr><td>4 Moribund or dead:</td><td style="text-align:right">519</td></tr><tr><td><b>Mean damage index:</td><td style="text-align:right"><b>1.025</b></td></tr><tr><td><b>Trees damaged:</td><td style="text-align:right"><b>83.9%</b></td></tr></table>';
+                    this._div.innerHTML = 'placeholder';
             };
             abstract.addTo(map);
         var baseMaps = {};
