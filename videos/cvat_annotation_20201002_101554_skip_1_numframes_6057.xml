@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>demo</name>
+      <size>6057</size>
+      <mode>interpolation</mode>
+      <start_frame>0</start_frame>
+      <stop_frame>6056</stop_frame>
+      <z_order>False</z_order>
+      <labels>
+        <label>
+          <name>zero</name>
+        </label>
+        <label>
+          <name>light</name>
+        </label>
+        <label>
+          <name>medium</name>
+        </label>
+        <label>
+          <name>high</name>
+        </label>
+        <label>
+          <name>non_recoverable</name>
+        </label>
+      </labels>
+    </task>
+  </meta>
+  <image id="266" name="frame_000266" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="314.00" ytl="1681.00" xbr="527.00" ybr="1907.00">
+    </box>
+  </image>
+  <image id="284" name="frame_000284" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="245.00" ytl="1251.00" xbr="681.00" ybr="1860.00">
+    </box>
+  </image>
+  <image id="285" name="frame_000285" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="272.00" ytl="1477.00" xbr="774.00" ybr="1909.00">
+    </box>
+  </image>
+  <image id="301" name="frame_000301" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="187.00" ytl="622.00" xbr="416.00" ybr="933.00">
+    </box>
+  </image>
+  <image id="301" name="frame_000301" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="308.00,689.50;294.50,683.00;287.50,662.00;287.50,622.00;292.00,612.50;306.00,606.50;316.50,613.00;321.50,627.00;316.50,676.00;314.50,685.00;308.00,689.50">
+    </polygon>
+    <polygon label="cut" occluded="0" points="310.00,919.50;294.00,917.50;291.00,911.50;279.00,906.50;275.00,914.50;273.50,906.00;261.50,895.00;260.50,872.00;270.50,863.00;271.50,857.00;266.50,853.00;268.00,844.50;275.00,844.50;291.00,861.50;299.00,863.50;310.00,850.50;314.00,851.50;331.50,871.00;334.50,884.00;332.50,898.00;310.00,919.50">
+    </polygon>
+  </image>
+  <image id="389" name="frame_000389" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="0.00" ytl="11.00" xbr="498.00" ybr="489.00">
+    </box>
+  </image>
+  <image id="390" name="frame_000390" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="6.00" ytl="39.00" xbr="582.00" ybr="730.00">
+    </box>
+  </image>
+  <image id="390" name="frame_000390" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="543.00,354.50;487.00,345.50;481.50,339.00;481.50,327.00;502.00,308.50;557.00,276.50;579.00,274.50;594.50,293.00;594.50,327.00;575.00,343.50;543.00,354.50">
+    </polygon>
+  </image>
+  <image id="391" name="frame_000391" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="13.00" ytl="187.00" xbr="716.00" ybr="1217.00">
+    </box>
+  </image>
+  <image id="401" name="frame_000401" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="64.00" ytl="0.00" xbr="379.00" ybr="304.00">
+    </box>
+  </image>
+  <image id="403" name="frame_000403" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="88.00" ytl="193.00" xbr="519.00" ybr="729.00">
+    </box>
+  </image>
+  <image id="434" name="frame_000434" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="868.00" ytl="1526.00" xbr="932.00" ybr="1863.00">
+    </box>
+    <box label="light" occluded="0" xtl="342.00" ytl="1208.00" xbr="805.00" ybr="1822.00">
+    </box>
+  </image>
+  <image id="434" name="frame_000434" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="671.00,1317.50;648.50,1306.00;651.50,1285.00;648.50,1265.00;666.00,1240.50;678.00,1237.50;684.50,1246.00;690.50,1267.00;692.50,1290.00;686.50,1304.00;671.00,1317.50">
+    </polygon>
+  </image>
+  <image id="435" name="frame_000435" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="399.00" ytl="1410.00" xbr="900.00" ybr="1915.00">
+    </box>
+  </image>
+  <image id="435" name="frame_000435" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="648.00,1458.50;604.50,1453.00;590.50,1427.00;590.50,1406.00;599.00,1392.50;630.00,1392.50;652.50,1418.00;657.50,1428.00;657.50,1440.00;648.00,1458.50">
+    </polygon>
+  </image>
+  <image id="455" name="frame_000455" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="28.00" ytl="1122.00" xbr="596.00" ybr="1884.00">
+    </box>
+  </image>
+  <image id="466" name="frame_000466" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="204.00" ytl="1601.00" xbr="521.00" ybr="1859.00">
+    </box>
+  </image>
+  <image id="522" name="frame_000522" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="305.00" ytl="697.00" xbr="555.00" ybr="857.00">
+    </box>
+  </image>
+  <image id="525" name="frame_000525" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="448.00" ytl="1339.00" xbr="889.00" ybr="1788.00">
+    </box>
+  </image>
+  <image id="531" name="frame_000531" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="19.00" ytl="0.00" xbr="913.00" ybr="681.00">
+    </box>
+  </image>
+  <image id="548" name="frame_000548" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="367.00" ytl="787.00" xbr="1080.00" ybr="1785.00">
+    </box>
+  </image>
+  <image id="581" name="frame_000581" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="34.00" ytl="494.00" xbr="449.00" ybr="1141.00">
+    </box>
+  </image>
+  <image id="582" name="frame_000582" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="127.00" ytl="20.00" xbr="624.00" ybr="844.00">
+    </box>
+  </image>
+  <image id="595" name="frame_000595" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="940.00" ytl="1553.00" xbr="1052.00" ybr="1840.00">
+    </box>
+  </image>
+  <image id="706" name="frame_000706" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="258.00" ytl="1416.00" xbr="735.00" ybr="1856.00">
+    </box>
+  </image>
+  <image id="728" name="frame_000728" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="78.00" ytl="631.00" xbr="923.00" ybr="1769.00">
+    </box>
+  </image>
+  <image id="728" name="frame_000728" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="256.00,1237.50;221.00,1236.50;194.00,1225.50;186.50,1215.00;177.50,1172.00;165.50,1140.00;164.50,1121.00;175.00,1108.50;216.00,1107.50;247.00,1114.50;285.00,1134.50;308.00,1158.50;322.50,1167.00;321.50,1180.00;286.50,1222.00;272.00,1234.50;256.00,1237.50">
+    </polygon>
+  </image>
+  <image id="734" name="frame_000734" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="85.00" ytl="674.00" xbr="863.00" ybr="1457.00">
+    </box>
+  </image>
+  <image id="734" name="frame_000734" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="742.00,980.50;732.00,978.50;686.50,949.00;689.50,936.00;686.50,915.00;681.50,910.00;683.50,901.00;700.50,877.00;701.50,860.00;721.00,836.50;802.00,836.50;808.50,853.00;810.50,905.00;807.50,916.00;795.00,930.50;771.00,947.50;754.50,965.00;748.50,977.00;742.00,980.50">
+    </polygon>
+  </image>
+  <image id="750" name="frame_000750" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="338.00" ytl="1095.00" xbr="788.00" ybr="1704.00">
+    </box>
+  </image>
+  <image id="751" name="frame_000751" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="381.00" ytl="1361.00" xbr="877.00" ybr="1908.00">
+    </box>
+  </image>
+  <image id="752" name="frame_000752" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="502.00" ytl="1659.00" xbr="710.00" ybr="1906.00">
+    </box>
+  </image>
+  <image id="782" name="frame_000782" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="135.00" ytl="149.00" xbr="340.00" ybr="382.00">
+    </box>
+  </image>
+  <image id="953" name="frame_000953" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="369.00" ytl="1312.00" xbr="899.00" ybr="1811.00">
+    </box>
+  </image>
+  <image id="1042" name="frame_001042" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="19.00" ytl="813.00" xbr="888.00" ybr="1855.00">
+    </box>
+  </image>
+  <image id="1043" name="frame_001043" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="43.00" ytl="965.00" xbr="953.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="1140" name="frame_001140" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="752.00" ytl="1323.00" xbr="1066.00" ybr="1683.00">
+    </box>
+  </image>
+  <image id="1301" name="frame_001301" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="208.00" ytl="44.00" xbr="519.00" ybr="459.00">
+    </box>
+  </image>
+  <image id="1303" name="frame_001303" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="229.00" ytl="194.00" xbr="568.00" ybr="635.00">
+    </box>
+  </image>
+  <image id="1306" name="frame_001306" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="238.00" ytl="384.00" xbr="650.00" ybr="907.00">
+    </box>
+  </image>
+  <image id="1306" name="frame_001306" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="642.00,729.50;625.00,722.50;597.50,688.00;596.50,684.00;606.50,675.00;606.00,665.50;626.00,668.50;641.50,678.00;645.50,693.00;642.00,729.50">
+    </polygon>
+  </image>
+  <image id="1307" name="frame_001307" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="291.00" ytl="472.00" xbr="686.00" ybr="995.00">
+    </box>
+  </image>
+  <image id="1307" name="frame_001307" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="676.00,802.50;668.00,797.50;649.00,800.50;636.00,796.50;633.50,761.00;655.00,751.50;673.00,752.50;680.00,756.50;687.50,773.00;676.00,802.50">
+    </polygon>
+  </image>
+  <image id="1335" name="frame_001335" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="599.00" ytl="522.00" xbr="1062.00" ybr="1299.00">
+    </box>
+  </image>
+  <image id="1621" name="frame_001621" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="457.00" ytl="823.00" xbr="714.00" ybr="1058.00">
+    </box>
+  </image>
+  <image id="2037" name="frame_002037" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="542.00" ytl="1664.00" xbr="726.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="2059" name="frame_002059" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="61.00" ytl="4.00" xbr="810.00" ybr="670.00">
+    </box>
+  </image>
+  <image id="2101" name="frame_002101" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="725.00" ytl="0.00" xbr="1080.00" ybr="691.00">
+    </box>
+  </image>
+  <image id="2210" name="frame_002210" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="609.00" ytl="1080.00" xbr="1051.00" ybr="1909.00">
+    </box>
+  </image>
+  <image id="2212" name="frame_002212" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="625.00" ytl="1151.00" xbr="1074.00" ybr="1872.00">
+    </box>
+  </image>
+  <image id="2236" name="frame_002236" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="150.00" ytl="880.00" xbr="792.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="2263" name="frame_002263" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="283.00" ytl="1135.00" xbr="635.00" ybr="1740.00">
+    </box>
+  </image>
+  <image id="2264" name="frame_002264" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="345.00" ytl="1412.00" xbr="727.00" ybr="1870.00">
+    </box>
+  </image>
+  <image id="2411" name="frame_002411" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="6.00" ytl="376.00" xbr="110.00" ybr="502.00">
+    </box>
+  </image>
+  <image id="2416" name="frame_002416" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="80.00" ytl="789.00" xbr="484.00" ybr="1311.00">
+    </box>
+  </image>
+  <image id="2554" name="frame_002554" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="100.00" ytl="11.00" xbr="500.00" ybr="526.00">
+    </box>
+  </image>
+  <image id="2555" name="frame_002555" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="95.00" ytl="0.00" xbr="562.00" ybr="620.00">
+    </box>
+  </image>
+  <image id="2555" name="frame_002555" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="527.00,213.50;512.00,210.50;505.50,203.00;504.50,192.00;492.00,184.50;490.50,179.00;517.00,165.50;529.00,167.50;545.00,178.50;551.50,185.00;553.50,195.00;542.00,206.50;527.00,213.50">
+    </polygon>
+  </image>
+  <image id="2557" name="frame_002557" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="142.00" ytl="3.00" xbr="736.00" ybr="613.00">
+    </box>
+  </image>
+  <image id="2558" name="frame_002558" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="212.00" ytl="0.00" xbr="838.00" ybr="671.00">
+    </box>
+  </image>
+  <image id="2559" name="frame_002559" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="242.00" ytl="11.00" xbr="1023.00" ybr="789.00">
+    </box>
+  </image>
+  <image id="2591" name="frame_002591" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="655.00" ytl="852.00" xbr="960.00" ybr="1097.00">
+    </box>
+  </image>
+  <image id="2591" name="frame_002591" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="860.00,914.50;841.00,905.50;833.00,907.50;830.50,901.00;836.50,884.00;851.50,861.00;864.00,850.50;872.00,849.50;878.50,857.00;878.50,900.00;872.00,909.50;860.00,914.50">
+    </polygon>
+  </image>
+  <image id="2592" name="frame_002592" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="768.00" ytl="1090.00" xbr="1078.00" ybr="1375.00">
+    </box>
+  </image>
+  <image id="2592" name="frame_002592" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="865.00,1148.50;853.00,1145.50;838.00,1127.50;819.00,1117.50;817.50,1111.00;813.50,1110.00;810.50,1083.00;806.50,1076.00;808.00,1067.50;840.00,1064.50;844.50,1069.00;877.50,1122.00;877.50,1132.00;865.00,1148.50">
+    </polygon>
+  </image>
+  <image id="2645" name="frame_002645" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="535.00" ytl="831.00" xbr="980.00" ybr="1598.00">
+    </box>
+  </image>
+  <image id="2645" name="frame_002645" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="954.00,1196.50;895.50,1189.00;898.50,1185.00;894.50,1177.00;895.50,1142.00;911.00,1133.50;921.00,1121.50;937.00,1121.50;958.00,1127.50;988.50,1156.00;990.50,1185.00;974.00,1193.50;954.00,1196.50">
+    </polygon>
+  </image>
+  <image id="2646" name="frame_002646" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="639.00" ytl="1134.00" xbr="1057.00" ybr="1891.00">
+    </box>
+  </image>
+  <image id="2689" name="frame_002689" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="185.00" ytl="1169.00" xbr="338.00" ybr="1331.00">
+    </box>
+  </image>
+  <image id="2696" name="frame_002696" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="204.00" ytl="1031.00" xbr="833.00" ybr="1892.00">
+    </box>
+  </image>
+  <image id="2792" name="frame_002792" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="206.00" ytl="947.00" xbr="496.00" ybr="1335.00">
+    </box>
+    <box label="light" occluded="0" xtl="206.00" ytl="954.00" xbr="503.00" ybr="1326.00">
+    </box>
+  </image>
+  <image id="2793" name="frame_002793" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="216.00" ytl="1171.00" xbr="556.00" ybr="1693.00">
+    </box>
+  </image>
+  <image id="2948" name="frame_002948" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="208.00" ytl="826.00" xbr="463.00" ybr="1211.00">
+    </box>
+    <box label="light" occluded="0" xtl="205.00" ytl="829.00" xbr="466.00" ybr="1191.00">
+    </box>
+  </image>
+  <image id="2949" name="frame_002949" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="223.00" ytl="1027.00" xbr="517.00" ybr="1541.00">
+    </box>
+  </image>
+  <image id="2950" name="frame_002950" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="234.00" ytl="1242.00" xbr="559.00" ybr="1799.00">
+    </box>
+  </image>
+  <image id="2951" name="frame_002951" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="296.00" ytl="1508.00" xbr="640.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="3000" name="frame_003000" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="236.00" ytl="1574.00" xbr="507.00" ybr="1782.00">
+    </box>
+  </image>
+  <image id="3059" name="frame_003059" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="324.00" ytl="1085.00" xbr="388.00" ybr="1147.00">
+    </box>
+  </image>
+  <image id="3301" name="frame_003301" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="410.00" ytl="1738.00" xbr="497.00" ybr="1862.00">
+    </box>
+  </image>
+  <image id="3441" name="frame_003441" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="240.00" ytl="929.00" xbr="882.00" ybr="1834.00">
+    </box>
+  </image>
+  <image id="3441" name="frame_003441" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="875.00,1157.50;855.50,1155.00;840.50,1119.00;835.50,1079.00;849.00,1061.50;872.00,1061.50;899.50,1104.00;899.50,1123.00;891.50,1147.00;886.00,1153.50;875.00,1157.50">
+    </polygon>
+  </image>
+  <image id="3705" name="frame_003705" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="966.00" ytl="1734.00" xbr="1080.00" ybr="1916.00">
+    </box>
+  </image>
+  <image id="3894" name="frame_003894" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="0.00" ytl="516.00" xbr="142.00" ybr="699.00">
+    </box>
+  </image>
+  <image id="3923" name="frame_003923" width="1080" height="1920">
+    <box label="high" occluded="0" xtl="711.00" ytl="1103.00" xbr="1080.00" ybr="1831.00">
+    </box>
+  </image>
+  <image id="4144" name="frame_004144" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="51.00" ytl="29.00" xbr="761.00" ybr="944.00">
+    </box>
+  </image>
+  <image id="4145" name="frame_004145" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="86.00" ytl="1403.00" xbr="400.00" ybr="1626.00">
+    </box>
+  </image>
+  <image id="4250" name="frame_004250" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="169.00" ytl="811.00" xbr="489.00" ybr="1149.00">
+    </box>
+  </image>
+  <image id="4253" name="frame_004253" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="259.00" ytl="1412.00" xbr="734.00" ybr="1917.00">
+    </box>
+  </image>
+  <image id="4257" name="frame_004257" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="0.00" ytl="0.00" xbr="416.00" ybr="469.00">
+    </box>
+  </image>
+  <image id="4262" name="frame_004262" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="269.00" ytl="11.00" xbr="1062.00" ybr="887.00">
+    </box>
+  </image>
+  <image id="4269" name="frame_004269" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="151.00" ytl="1.00" xbr="724.00" ybr="409.00">
+    </box>
+  </image>
+  <image id="4292" name="frame_004292" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="340.00" ytl="0.00" xbr="1054.00" ybr="630.00">
+    </box>
+  </image>
+  <image id="4293" name="frame_004293" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="478.00" ytl="24.00" xbr="1080.00" ybr="1042.00">
+    </box>
+  </image>
+  <image id="4335" name="frame_004335" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="0.00" ytl="488.00" xbr="325.00" ybr="809.00">
+    </box>
+  </image>
+  <image id="4336" name="frame_004336" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="8.00" ytl="758.00" xbr="485.00" ybr="1336.00">
+    </box>
+  </image>
+  <image id="4337" name="frame_004337" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="3.00" ytl="1153.00" xbr="617.00" ybr="1849.00">
+    </box>
+  </image>
+  <image id="4337" name="frame_004337" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="310.00,1770.50;279.00,1769.50;244.00,1750.50;235.50,1738.00;236.50,1710.00;254.50,1675.00;260.50,1652.00;272.00,1637.50;306.00,1619.50;340.00,1617.50;351.50,1626.00;361.50,1661.00;364.50,1724.00;360.50,1737.00;345.00,1757.50;326.00,1767.50;310.00,1770.50">
+    </polygon>
+  </image>
+  <image id="4340" name="frame_004340" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="142.00" ytl="1203.00" xbr="905.00" ybr="1908.00">
+    </box>
+  </image>
+  <image id="4430" name="frame_004430" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="115.00" ytl="763.00" xbr="252.00" ybr="895.00">
+    </box>
+  </image>
+  <image id="4523" name="frame_004523" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="30.00" ytl="922.00" xbr="953.00" ybr="1875.00">
+    </box>
+  </image>
+  <image id="4524" name="frame_004524" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="795.00" ytl="2.00" xbr="1080.00" ybr="287.00">
+    </box>
+    <box label="zero" occluded="0" xtl="166.00" ytl="1304.00" xbr="763.00" ybr="1840.00">
+    </box>
+  </image>
+  <image id="4528" name="frame_004528" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="356.00" ytl="5.00" xbr="1076.00" ybr="740.00">
+    </box>
+  </image>
+  <image id="4533" name="frame_004533" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="0.00" ytl="0.00" xbr="492.00" ybr="572.00">
+    </box>
+  </image>
+  <image id="4535" name="frame_004535" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="15.00" ytl="668.00" xbr="916.00" ybr="1803.00">
+    </box>
+  </image>
+  <image id="4541" name="frame_004541" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="387.00" ytl="1373.00" xbr="940.00" ybr="1878.00">
+    </box>
+  </image>
+  <image id="4579" name="frame_004579" width="1080" height="1920">
+    <box label="zero" occluded="0" xtl="43.00" ytl="1604.00" xbr="317.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="4586" name="frame_004586" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="257.00" ytl="0.00" xbr="873.00" ybr="422.00">
+    </box>
+  </image>
+  <image id="4587" name="frame_004587" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="335.00" ytl="16.00" xbr="1078.00" ybr="922.00">
+    </box>
+  </image>
+  <image id="4637" name="frame_004637" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="207.00" ytl="1057.00" xbr="600.00" ybr="1802.00">
+    </box>
+  </image>
+  <image id="4639" name="frame_004639" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="272.00" ytl="1088.00" xbr="676.00" ybr="1836.00">
+    </box>
+  </image>
+  <image id="4640" name="frame_004640" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="306.00" ytl="1424.00" xbr="780.00" ybr="1906.00">
+    </box>
+  </image>
+  <image id="4641" name="frame_004641" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="458.00" ytl="1326.00" xbr="839.00" ybr="1890.00">
+    </box>
+    <box label="light" occluded="0" xtl="438.00" ytl="5.00" xbr="1068.00" ybr="772.00">
+    </box>
+  </image>
+  <image id="4642" name="frame_004642" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="557.00" ytl="1592.00" xbr="954.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="4676" name="frame_004676" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="608.00" ytl="5.00" xbr="1062.00" ybr="772.00">
+    </box>
+  </image>
+  <image id="4676" name="frame_004676" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="1018.00,304.50;990.00,297.50;982.50,291.00;979.50,262.00;971.50,246.00;971.50,238.00;978.00,228.50;984.50,229.00;986.50,225.00;979.50,221.00;990.00,213.50;997.00,213.50;1009.00,222.50;1030.00,216.50;1048.00,216.50;1054.50,225.00;1050.50,290.00;1036.00,301.50;1018.00,304.50">
+    </polygon>
+  </image>
+  <image id="4706" name="frame_004706" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="219.00" ytl="897.00" xbr="1048.00" ybr="1815.00">
+    </box>
+  </image>
+  <image id="4717" name="frame_004717" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="136.00" ytl="650.00" xbr="1035.00" ybr="1782.00">
+    </box>
+  </image>
+  <image id="4719" name="frame_004719" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="350.00" ytl="0.00" xbr="768.00" ybr="768.00">
+    </box>
+  </image>
+  <image id="4719" name="frame_004719" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="406.00,177.50;367.00,169.50;356.50,161.00;364.00,155.50;414.00,154.50;424.50,174.00;406.00,177.50">
+    </polygon>
+  </image>
+  <image id="4720" name="frame_004720" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="419.00" ytl="127.00" xbr="895.00" ybr="1112.00">
+    </box>
+  </image>
+  <image id="4723" name="frame_004723" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="651.00" ytl="1388.00" xbr="700.00" ybr="1606.00">
+    </box>
+  </image>
+  <image id="4739" name="frame_004739" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="422.00" ytl="992.00" xbr="1060.00" ybr="1893.00">
+    </box>
+  </image>
+  <image id="4740" name="frame_004740" width="1080" height="1920">
+    <box label="medium" occluded="0" xtl="383.00" ytl="1222.00" xbr="782.00" ybr="1777.00">
+    </box>
+  </image>
+  <image id="4740" name="frame_004740" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="760.00,1600.50;730.00,1600.50;716.00,1592.50;687.50,1552.00;689.50,1533.00;703.50,1505.00;702.50,1495.00;707.00,1489.50;741.00,1489.50;748.50,1494.00;759.50,1514.00;773.50,1562.00;771.50,1591.00;760.00,1600.50">
+    </polygon>
+  </image>
+  <image id="4809" name="frame_004809" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="163.00" ytl="827.00" xbr="1040.00" ybr="1778.00">
+    </box>
+  </image>
+  <image id="4809" name="frame_004809" width="1080" height="1920">
+    <polygon label="cut" occluded="0" points="969.00,1389.50;932.00,1386.50;917.00,1378.50;857.00,1360.50;829.00,1343.50;821.00,1344.50;811.50,1330.00;819.50,1302.00;844.00,1286.50;870.00,1285.50;955.00,1315.50;979.00,1328.50;999.50,1344.00;1006.50,1358.00;1006.50,1371.00;991.00,1386.50;969.00,1389.50">
+    </polygon>
+  </image>
+  <image id="4952" name="frame_004952" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="461.00" ytl="336.00" xbr="499.00" ybr="440.00">
+    </box>
+  </image>
+  <image id="4953" name="frame_004953" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="547.00" ytl="547.00" xbr="590.00" ybr="689.00">
+    </box>
+  </image>
+  <image id="4954" name="frame_004954" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="659.00" ytl="847.00" xbr="708.00" ybr="1039.00">
+    </box>
+  </image>
+  <image id="4955" name="frame_004955" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="821.00" ytl="1258.00" xbr="894.00" ybr="1583.00">
+    </box>
+  </image>
+  <image id="5031" name="frame_005031" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="717.00" ytl="769.00" xbr="766.00" ybr="921.00">
+    </box>
+  </image>
+  <image id="5036" name="frame_005036" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="428.00" ytl="1607.00" xbr="684.00" ybr="1867.00">
+    </box>
+  </image>
+  <image id="5059" name="frame_005059" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="345.00" ytl="1353.00" xbr="487.00" ybr="1502.00">
+    </box>
+  </image>
+  <image id="5211" name="frame_005211" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="180.00" ytl="1495.00" xbr="427.00" ybr="1750.00">
+    </box>
+  </image>
+  <image id="5213" name="frame_005213" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="199.00" ytl="1553.00" xbr="439.00" ybr="1775.00">
+    </box>
+  </image>
+  <image id="5215" name="frame_005215" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="230.00" ytl="1608.00" xbr="465.00" ybr="1827.00">
+    </box>
+  </image>
+  <image id="5220" name="frame_005220" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="222.00" ytl="1482.00" xbr="465.00" ybr="1723.00">
+    </box>
+  </image>
+  <image id="5238" name="frame_005238" width="1080" height="1920">
+    <box label="light" occluded="0" xtl="201.00" ytl="1298.00" xbr="481.00" ybr="1785.00">
+    </box>
+  </image>
+  <image id="6003" name="frame_006003" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="113.00" ytl="244.00" xbr="296.00" ybr="792.00">
+    </box>
+  </image>
+  <image id="6005" name="frame_006005" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="349.00" ytl="162.00" xbr="537.00" ybr="806.00">
+    </box>
+  </image>
+  <image id="6006" name="frame_006006" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="485.00" ytl="362.00" xbr="689.00" ybr="1080.00">
+    </box>
+  </image>
+  <image id="6007" name="frame_006007" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="650.00" ytl="645.00" xbr="864.00" ybr="1502.00">
+    </box>
+  </image>
+  <image id="6008" name="frame_006008" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="871.00" ytl="1125.00" xbr="1066.00" ybr="1875.00">
+    </box>
+  </image>
+</annotations>

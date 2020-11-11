@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>demo</name>
+      <size>4420</size>
+      <mode>interpolation</mode>
+      <start_frame>0</start_frame>
+      <stop_frame>4419</stop_frame>
+      <z_order>False</z_order>
+      <labels>
+        <label>
+          <name>zero</name>
+        </label>
+        <label>
+          <name>light</name>
+        </label>
+        <label>
+          <name>medium</name>
+        </label>
+        <label>
+          <name>high</name>
+        </label>
+        <label>
+          <name>non_recoverable</name>
+        </label>
+      </labels>
+    </task>
+  </meta>
+  <image id="89" name="frame_000089" width="1080" height="1920">
+    <box label="high" occluded="0" xtl="512.00" ytl="1601.00" xbr="654.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="91" name="frame_000091" width="1080" height="1920">
+    <box label="high" occluded="0" xtl="692.00" ytl="1636.00" xbr="848.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="92" name="frame_000092" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="181.00" ytl="1366.00" xbr="415.00" ybr="1917.00">
+    </box>
+  </image>
+  <image id="93" name="frame_000093" width="1080" height="1920">
+    <box label="high" occluded="0" xtl="866.00" ytl="1355.00" xbr="1073.00" ybr="1908.00">
+    </box>
+  </image>
+  <image id="356" name="frame_000356" width="1080" height="1920">
+    <box label="high" occluded="0" xtl="813.00" ytl="1184.00" xbr="1076.00" ybr="1860.00">
+    </box>
+  </image>
+  <image id="462" name="frame_000462" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="1018.00" ytl="1680.00" xbr="1077.00" ybr="1902.00">
+    </box>
+  </image>
+  <image id="966" name="frame_000966" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="1014.00" ytl="1628.00" xbr="1076.00" ybr="1875.00">
+    </box>
+  </image>
+  <image id="1390" name="frame_001390" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="348.00" ytl="1605.00" xbr="428.00" ybr="1863.00">
+    </box>
+    <box label="non_recoverable" occluded="0" xtl="569.00" ytl="1675.00" xbr="635.00" ybr="1918.00">
+    </box>
+  </image>
+  <image id="1476" name="frame_001476" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="818.00" ytl="1572.00" xbr="976.00" ybr="1897.00">
+    </box>
+    <box label="non_recoverable" occluded="0" xtl="778.00" ytl="1528.00" xbr="851.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="2238" name="frame_002238" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="1025.00" ytl="200.00" xbr="1080.00" ybr="451.00">
+    </box>
+  </image>
+  <image id="2304" name="frame_002304" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="192.00" ytl="479.00" xbr="290.00" ybr="1156.00">
+    </box>
+  </image>
+  <image id="2894" name="frame_002894" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="961.00" ytl="1127.00" xbr="1072.00" ybr="1920.00">
+    </box>
+  </image>
+  <image id="3029" name="frame_003029" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="387.00" ytl="764.00" xbr="615.00" ybr="1374.00">
+    </box>
+  </image>
+  <image id="3053" name="frame_003053" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="197.00" ytl="868.00" xbr="255.00" ybr="1120.00">
+    </box>
+  </image>
+  <image id="3268" name="frame_003268" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="826.00" ytl="1433.00" xbr="869.00" ybr="1563.00">
+    </box>
+  </image>
+  <image id="3770" name="frame_003770" width="1080" height="1920">
+    <box label="non_recoverable" occluded="0" xtl="1052.00" ytl="247.00" xbr="1080.00" ybr="343.00">
+    </box>
+  </image>
+</annotations>
